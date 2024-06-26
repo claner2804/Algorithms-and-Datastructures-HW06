@@ -17,24 +17,25 @@ Raumkomplexität:
 #include <vector>
 
 void bubbleSort(std::vector<int>& arr) {
-    bool swapped;
-    for (size_t i = 0; i < arr.size() - 1; ++i) {
-        swapped = false;
-        for (size_t j = 0; j < arr.size() - i - 1; ++j) {
-            if (arr[j] > arr[j + 1]) {
-                std::swap(arr[j], arr[j + 1]);
-                swapped = true;
+    bool swapped; // Initialisierung von swapped (O(1))
+    for (size_t i = 0; i < arr.size() - 1; ++i) { // Äußere Schleife (O(n) Iterationen)
+        swapped = false; // Initialisierung von swapped für jede Iteration (O(1))
+        for (size_t j = 0; j < arr.size() - i - 1; ++j) { // Innere Schleife (O(n) Iterationen im Durchschnitt)
+            if (arr[j] > arr[j + 1]) { // Vergleich der Elemente (O(1) pro Vergleich)
+                std::swap(arr[j], arr[j + 1]); // Tausch der Elemente (O(1) pro Tausch)
+                swapped = true; // Aktualisierung von swapped (O(1))
             }
         }
-        if (!swapped) break;
+        if (!swapped) break; // Überprüfung von swapped (O(1))
     }
     // Zeitkomplexität vor dem Kürzen:
-    // Best-Case: n-1 Vergleiche
-    // Average-Case: n(n-1)/2 Vergleiche
-    // Worst-Case: n(n-1)/2 Vergleiche
+    // Best-Case: n-1 Vergleiche -> O(n-1)
+    // Average-Case: n(n-1)/2 Vergleiche -> O(n^2/2)
+    // Worst-Case: n(n-1)/2 Vergleiche -> O(n^2/2)
     // Nach dem Kürzen:
     // Best-Case: O(n)
     // Average-Case: O(n^2)
     // Worst-Case: O(n^2)
     // Raumkomplexität: O(1)
 }
+
