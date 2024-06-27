@@ -12,4 +12,10 @@ add_executable(UEZ6 binary_search.cpp
         heap_sort.cpp
         bucket_sort.cpp
         merge_sort.cpp
-        quick_sort.cpp)
+        quick_sort.cpp
+        shell_sort.cpp
+        dynamic_array.cpp
+        stack.cpp
+        queue.cpp
+        binary_tree.cpp
+        hash_table.cpp)

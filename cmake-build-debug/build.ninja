@@ -109,6 +109,42 @@ build CMakeFiles/UEZ6.dir/quick_sort.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/UEZ6.dir
   OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
 
+build CMakeFiles/UEZ6.dir/shell_sort.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /Users/admin/Library/CloudStorage/OneDrive-mci4me.at/Digital$ Business$ &$ Software$ Engineering/Semester$ 2/Algorithmen$ und$ Datenstrukturen/UEZ6/shell_sort.cpp || cmake_object_order_depends_target_UEZ6
+  DEP_FILE = CMakeFiles/UEZ6.dir/shell_sort.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UEZ6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
+
+build CMakeFiles/UEZ6.dir/dynamic_array.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /Users/admin/Library/CloudStorage/OneDrive-mci4me.at/Digital$ Business$ &$ Software$ Engineering/Semester$ 2/Algorithmen$ und$ Datenstrukturen/UEZ6/dynamic_array.cpp || cmake_object_order_depends_target_UEZ6
+  DEP_FILE = CMakeFiles/UEZ6.dir/dynamic_array.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UEZ6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
+
+build CMakeFiles/UEZ6.dir/stack.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /Users/admin/Library/CloudStorage/OneDrive-mci4me.at/Digital$ Business$ &$ Software$ Engineering/Semester$ 2/Algorithmen$ und$ Datenstrukturen/UEZ6/stack.cpp || cmake_object_order_depends_target_UEZ6
+  DEP_FILE = CMakeFiles/UEZ6.dir/stack.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UEZ6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
+
+build CMakeFiles/UEZ6.dir/queue.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /Users/admin/Library/CloudStorage/OneDrive-mci4me.at/Digital$ Business$ &$ Software$ Engineering/Semester$ 2/Algorithmen$ und$ Datenstrukturen/UEZ6/queue.cpp || cmake_object_order_depends_target_UEZ6
+  DEP_FILE = CMakeFiles/UEZ6.dir/queue.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UEZ6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
+
+build CMakeFiles/UEZ6.dir/binary_tree.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /Users/admin/Library/CloudStorage/OneDrive-mci4me.at/Digital$ Business$ &$ Software$ Engineering/Semester$ 2/Algorithmen$ und$ Datenstrukturen/UEZ6/binary_tree.cpp || cmake_object_order_depends_target_UEZ6
+  DEP_FILE = CMakeFiles/UEZ6.dir/binary_tree.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UEZ6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
+
+build CMakeFiles/UEZ6.dir/hash_table.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /Users/admin/Library/CloudStorage/OneDrive-mci4me.at/Digital$ Business$ &$ Software$ Engineering/Semester$ 2/Algorithmen$ und$ Datenstrukturen/UEZ6/hash_table.cpp || cmake_object_order_depends_target_UEZ6
+  DEP_FILE = CMakeFiles/UEZ6.dir/hash_table.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UEZ6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UEZ6.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target UEZ6
@@ -117,7 +153,7 @@ build CMakeFiles/UEZ6.dir/quick_sort.cpp.o: CXX_COMPILER__UEZ6_unscanned_Debug /
 #############################################
 # Link the executable UEZ6
 
-build UEZ6: CXX_EXECUTABLE_LINKER__UEZ6_Debug CMakeFiles/UEZ6.dir/binary_search.cpp.o CMakeFiles/UEZ6.dir/linear_search.cpp.o CMakeFiles/UEZ6.dir/bubble_sort.cpp.o CMakeFiles/UEZ6.dir/insertion_sort.cpp.o CMakeFiles/UEZ6.dir/recursive_insertion_sort.cpp.o CMakeFiles/UEZ6.dir/selection_sort.cpp.o CMakeFiles/UEZ6.dir/heap_sort.cpp.o CMakeFiles/UEZ6.dir/bucket_sort.cpp.o CMakeFiles/UEZ6.dir/merge_sort.cpp.o CMakeFiles/UEZ6.dir/quick_sort.cpp.o
+build UEZ6: CXX_EXECUTABLE_LINKER__UEZ6_Debug CMakeFiles/UEZ6.dir/binary_search.cpp.o CMakeFiles/UEZ6.dir/linear_search.cpp.o CMakeFiles/UEZ6.dir/bubble_sort.cpp.o CMakeFiles/UEZ6.dir/insertion_sort.cpp.o CMakeFiles/UEZ6.dir/recursive_insertion_sort.cpp.o CMakeFiles/UEZ6.dir/selection_sort.cpp.o CMakeFiles/UEZ6.dir/heap_sort.cpp.o CMakeFiles/UEZ6.dir/bucket_sort.cpp.o CMakeFiles/UEZ6.dir/merge_sort.cpp.o CMakeFiles/UEZ6.dir/quick_sort.cpp.o CMakeFiles/UEZ6.dir/shell_sort.cpp.o CMakeFiles/UEZ6.dir/dynamic_array.cpp.o CMakeFiles/UEZ6.dir/stack.cpp.o CMakeFiles/UEZ6.dir/queue.cpp.o CMakeFiles/UEZ6.dir/binary_tree.cpp.o CMakeFiles/UEZ6.dir/hash_table.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4
   OBJECT_DIR = CMakeFiles/UEZ6.dir
   POST_BUILD = :
